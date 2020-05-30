@@ -16,27 +16,27 @@ class Player {
     }
 
     // Methods
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public Character getSymbol() {
+    protected Character getSymbol() {
         return symbol;
     }
 
-    public void setSymbol(Character symbol) {
+    protected void setSymbol(Character symbol) {
         this.symbol = symbol;
     }
 
-    public Set<Byte> getSlots() {
+    protected Set<Byte> getSlots() {
         return slots;
     }
 
-    public void addSlot(byte slot) {
+    protected void addSlot(byte slot) {
         this.slots.add(slot);
     }
 
-    public void resetSlots(){
+    protected void resetSlots(){
         this.slots = new HashSet<Byte>();
     }
 }
