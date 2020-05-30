@@ -1,0 +1,4 @@
+package TicTacToe;
+
+class Console {
+}
